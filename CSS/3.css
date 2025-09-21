@@ -1,0 +1,91 @@
+
+#page-title {
+    text-align: center;
+    font-size: 28px;
+    color: darkgreen;
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 60%;
+    margin: 0 auto 40px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #333;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#form-title {
+    text-align: center;
+    font-family: "Arial Black";
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+
+.main {
+    text-decoration: none;
+    background-color: darkgreen;
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-left: 550px;
+    box-shadow:0 1px 5px rgba(0, 0, 0, 1);
+}
+
+.main:hover {
+    background-color: chartreuse;
+    color: black;
+}
